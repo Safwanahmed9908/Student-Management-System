@@ -1,0 +1,17 @@
+{
+  "name": "mern-student-management-project",
+  "version": "1.0.0",
+  "description": "Student Management System - College Term Work-2 Micro Project using MERN Stack",
+  "scripts": {
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "build:client": "cd frontend && npm run build",
+    "test": "cd backend && npm test",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend"
+  },
+  "keywords": ["mern", "student-management", "college-project", "react", "express", "mongodb", "node"],
+  "author": "",
+  "license": "ISC"
+}
